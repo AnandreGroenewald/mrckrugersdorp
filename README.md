@@ -19,14 +19,14 @@ To preview it, double-click `index.html`. It opens in your browser.
 
 ## 1. Photos
 
-The site uses free-licence stock photos of equipment and hands at work. They live in the `images/` folder:
+The site uses free-licence stock photos of equipment, with no people in the main photo. They live in the `images/` folder:
 
 | Spot on the page | File | Size (px) | Photo |
 |---|---|---|---|
-| Top of the page, beside the headline | `images/hero-repair.jpg` | 1200 × 900 | Hands repairing a laptop |
+| Top of the page, beside the headline | `images/hero-repair.jpg` | 1000 × 750 | An opened laptop showing its motherboard |
 | Home services, above the cards | `images/parts.jpg` | 1200 × 600 | Memory, SSDs and processors |
 | Business IT, above the cards | `images/business-network.jpg` and `images/business-cctv.jpg` | 900 × 600 each | Network cables · CCTV cameras |
-| WhatsApp and Facebook link preview | `images/og-cover.jpg` | 1200 × 630 | Hands repairing a laptop |
+| WhatsApp and Facebook link preview | `images/og-cover.jpg` | 1200 × 630 | An opened laptop showing its motherboard |
 | Logo | `images/mrc-logo.png` | 501 × 345 | Official MRC logo |
 
 To swap a photo, save the new one with the **same file name** in `images/` and refresh the page. Keep each photo a JPG under 200 KB (squoosh.app shrinks them for free). A real shop-front photo makes a great swap for `hero-repair.jpg` later.
@@ -35,7 +35,7 @@ To swap a photo, save the new one with the **same file name** in `images/` and r
 
 All four photos come from Unsplash and are free to use under the Unsplash License (https://unsplash.com/license). Credit is optional, and we keep it here:
 
-- Laptop repair: Revendo, https://unsplash.com/photos/7x0dGJqbfgk
+- Opened laptop: Andrey Matveev, https://unsplash.com/photos/V_ESJ2MM2Us
 - Network cables: Scott Rodgerson, https://unsplash.com/photos/PSpf_XgOM5w
 - CCTV cameras: Korhan Eser, https://unsplash.com/photos/Y76fd1p129E
 - Computer parts: Andrey Matveev, https://unsplash.com/photos/WUqkLR1fyaw
