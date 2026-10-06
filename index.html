@@ -10,7 +10,7 @@
 <link rel="canonical" href="https://mrckrugersdorp.co.za/">
 <meta name="theme-color" content="#161240">
 
-<!-- Open Graph and Twitter. ✏️ FILL IN: images/og-cover.jpg, a 1200 × 630 shop-front photo -->
+<!-- Open Graph and Twitter. Link-preview photo: images/og-cover.jpg (1200 × 630) -->
 <meta property="og:title" content="MR Computer Services Krugersdorp – Your tech, sorted.">
 <meta property="og:description" content="Walk-in laptop and PC repairs, same-day parts and business IT in Krugersdorp North. Price first, WhatsApp updates. MR Computer Services, since 1998.">
 <meta property="og:url" content="https://mrckrugersdorp.co.za/">
@@ -247,6 +247,15 @@ section{padding:64px 0}
 .spot small{display:block;font-weight:700;font-size:14px;margin-top:6px}
 .spot img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;border-radius:inherit}
 
+/* photos (free-licence stock photos, credits in README) */
+.photo{position:relative;margin:0;overflow:hidden;border-radius:var(--r);background:var(--tint);box-shadow:var(--shadow)}
+.photo img{display:block;width:100%;height:100%;object-fit:cover}
+.hero .photo{aspect-ratio:4/3;box-shadow:0 18px 50px rgba(0,0,0,.35)}
+.photo-band{aspect-ratio:2/1;margin:0 0 28px}
+.photo-pair{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:0 0 28px}
+.photo-pair .photo{aspect-ratio:3/2}
+@media(min-width:800px){.photo-band{aspect-ratio:3/1}.photo-pair{gap:22px}}
+
 /* reveal on scroll */
 .js .reveal{opacity:0;transform:translateY(18px);transition:opacity .6s ease,transform .6s ease;transition-delay:var(--d,0s)}
 .js .reveal.in{opacity:1;transform:none}
@@ -345,19 +354,6 @@ section{padding:64px 0}
 .rev .fill{align-self:stretch;min-height:96px;align-items:center;justify-content:center;text-align:center}
 .rev p{margin:0;font-size:1.05rem}
 .rev .who{font-weight:900;color:var(--teal)}
-
-/* team */
-.team{background:var(--tint)}
-.team-grid{display:grid;gap:22px}
-@media(min-width:720px){.team-grid{grid-template-columns:repeat(3,1fr)}}
-.person{text-align:center;background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:28px 22px;box-shadow:var(--shadow)}
-.person .spot{width:168px;aspect-ratio:1;border-radius:50%;margin:0 auto 18px;padding:12px;font-size:.95rem}
-.person h3{font-size:1.3rem}
-.person p{margin:6px 0 0;color:var(--teal);font-weight:900}
-.workshop{margin:22px 0 0;background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:16px;box-shadow:var(--shadow)}
-.workshop .spot{aspect-ratio:16/9}
-.workshop figcaption{padding:14px 6px 4px;text-align:center;font-weight:900;font-size:1.15rem}
-@media(min-width:800px){.workshop .spot{aspect-ratio:16/7}}
 
 /* visit */
 .visit-grid{display:grid;gap:34px}
@@ -502,10 +498,9 @@ section{padding:64px 0}
       </div>
       <p class="hero-group">A branch of the MR Computer Services group · <em>More than just IT...</em> <a href="https://www.mrcomputerservices.co.za" target="_blank" rel="noopener">Visit the group website</a></p>
     </div>
-    <div class="spot">
-      <img src="images/shop-front.jpg" alt="The MR Computer Services Krugersdorp shop front on Viljoen Street" width="1200" height="900" onerror="this.remove()">
-      <div><span>✏️ FILL IN: PHOTO – shop front</span><small>images/shop-front.jpg · 1200 × 900 px</small></div>
-    </div>
+    <figure class="photo">
+      <img src="images/hero-repair.jpg" alt="A technician's hands repairing an open laptop" width="1200" height="900" fetchpriority="high">
+    </figure>
   </div>
 </section>
 
@@ -530,6 +525,7 @@ section{padding:64px 0}
       <h2 id="services-title">Bring it in. <span class="hl">We'll sort it.</span></h2>
       <p>WhatsApp us a photo first and we'll tell you the quickest way forward.</p>
     </div>
+    <figure class="photo photo-band reveal"><img src="images/parts.jpg" alt="Computer memory, SSDs and processors laid out on a white table" width="1200" height="600" loading="lazy"></figure>
     <div class="cards">
       <article class="card reveal">
         <div class="ico"><svg class="ic" aria-hidden="true"><use href="#i-laptop"/></svg></div>
@@ -603,6 +599,10 @@ section{padding:64px 0}
       <svg class="dots" aria-hidden="true"><use href="#i-dots"/></svg>
       <h2 id="business-title">IT that keeps your <span class="hl">business moving.</span></h2>
       <p>One local team for support, security and connectivity, right here in Krugersdorp and backed by the MRC group.</p>
+    </div>
+    <div class="photo-pair reveal">
+      <figure class="photo"><img src="images/business-network.jpg" alt="Neatly labelled blue network cables in a server rack" width="900" height="600" loading="lazy"></figure>
+      <figure class="photo"><img src="images/business-cctv.jpg" alt="Two CCTV cameras against a clear blue sky" width="900" height="600" loading="lazy"></figure>
     </div>
     <div class="cards">
       <article class="feature reveal">
@@ -743,42 +743,6 @@ section{padding:64px 0}
       <div class="cta-row">
         <a class="btn btn-navy" href="https://maps.google.com/?cid=1700853532073906260" target="_blank" rel="noopener" data-track="reviews_click" data-placement="reviews">Read all our reviews</a>
         <a class="btn btn-line" href="https://maps.google.com/?cid=1700853532073906260" target="_blank" rel="noopener" data-track="reviews_click" data-placement="reviews-leave">Leave a review</a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- 8. TEAM -->
-<section id="team" class="team" aria-labelledby="team-title">
-  <div class="wrap">
-    <div class="sec-head center reveal">
-      <svg class="dots" aria-hidden="true"><use href="#i-dots"/></svg>
-      <h2 id="team-title">Meet your <span class="hl">Krugersdorp team</span></h2>
-    </div>
-    <div class="team-grid">
-      <article class="person reveal">
-        <div class="spot"><img src="images/team-jacky.jpg" alt="Jacky Du Preez, Managing Director" width="600" height="600" loading="lazy" onerror="this.remove()"><div><span>✏️ FILL IN: PHOTO</span><small>images/team-jacky.jpg · 600 × 600 px</small></div></div>
-        <h3>Jacky Du Preez</h3>
-        <p>Managing Director</p>
-      </article>
-      <article class="person reveal" style="--d:.08s">
-        <div class="spot"><img src="images/team-anandre.jpg" alt="Anandre Groenewald, Head of Operations" width="600" height="600" loading="lazy" onerror="this.remove()"><div><span>✏️ FILL IN: PHOTO</span><small>images/team-anandre.jpg · 600 × 600 px</small></div></div>
-        <h3>Anandre Groenewald</h3>
-        <p>Head of Operations</p>
-      </article>
-      <article class="person reveal" style="--d:.16s">
-        <div class="spot"><img src="images/team-rico.jpg" alt="Rico Sinden, Head of New Business Development" width="600" height="600" loading="lazy" onerror="this.remove()"><div><span>✏️ FILL IN: PHOTO</span><small>images/team-rico.jpg · 600 × 600 px</small></div></div>
-        <h3>Rico Sinden</h3>
-        <p>Head of New Business Development</p>
-      </article>
-    </div>
-    <figure class="workshop reveal">
-      <div class="spot"><img src="images/workshop-team.jpg" alt="The MR Computer Services Krugersdorp workshop team" width="1600" height="700" loading="lazy" onerror="this.remove()"><div><span>✏️ FILL IN: PHOTO – the workshop team</span><small>images/workshop-team.jpg · 1600 × 700 px</small></div></div>
-      <figcaption>The friendly faces behind every repair.</figcaption>
-    </figure>
-    <div class="section-cta reveal">
-      <div class="cta-row">
-        <a class="btn btn-wa" href="https://wa.me/27718651567?text=Hi%20MRC%20Krugersdorp!%20I%27d%20like%20some%20help." target="_blank" rel="noopener" data-track="whatsapp_click" data-service="General enquiry" data-placement="team"><svg class="ic" aria-hidden="true"><use href="#i-wa"/></svg>Say hi on WhatsApp</a>
       </div>
     </div>
   </div>

@@ -17,28 +17,28 @@ To preview it, double-click `index.html`. It opens in your browser.
 
 ---
 
-## 1. Swap in photos
+## 1. Photos
 
-Each photo spot on the page shows a dashed orange box marked **✏️ FILL IN: PHOTO**. You do **not** need to touch any code.
+The site uses free-licence stock photos of equipment and hands at work. They live in the `images/` folder:
 
-1. Save your photo with the **exact file name** below.
-2. Put it in the `images/` folder.
-3. Refresh the page. The photo replaces the dashed box on its own.
+| Spot on the page | File | Size (px) | Photo |
+|---|---|---|---|
+| Top of the page, beside the headline | `images/hero-repair.jpg` | 1200 × 900 | Hands repairing a laptop |
+| Home services, above the cards | `images/parts.jpg` | 1200 × 600 | Memory, SSDs and processors |
+| Business IT, above the cards | `images/business-network.jpg` and `images/business-cctv.jpg` | 900 × 600 each | Network cables · CCTV cameras |
+| WhatsApp and Facebook link preview | `images/og-cover.jpg` | 1200 × 630 | Hands repairing a laptop |
+| Logo | `images/mrc-logo.png` | 501 × 345 | Official MRC logo |
 
-| Spot on the page | File name | Size (px) |
-|---|---|---|
-| Top of the page, next to the headline: shop front | `images/shop-front.jpg` | 1200 × 900 |
-| Team: Jacky Du Preez | `images/team-jacky.jpg` | 600 × 600 (square) |
-| Team: Anandre Groenewald | `images/team-anandre.jpg` | 600 × 600 (square) |
-| Team: Rico Sinden | `images/team-rico.jpg` | 600 × 600 (square) |
-| Team: the workshop team (wide photo) | `images/workshop-team.jpg` | 1600 × 700 |
-| WhatsApp and Facebook link preview: shop front | `images/og-cover.jpg` | 1200 × 630 |
-| The MRC logo | `images/mrc-logo.png` | 501 × 345 |
+To swap a photo, save the new one with the **same file name** in `images/` and refresh the page. Keep each photo a JPG under 200 KB (squoosh.app shrinks them for free). A real shop-front photo makes a great swap for `hero-repair.jpg` later.
 
-Tips:
-- Save photos as **JPG** and keep each one **under 200 KB** so the site stays fast on a phone. Free tools such as squoosh.app shrink them.
-- **Logo:** save the official logo from `https://www.mrcomputerservices.co.za/edotdev/wp-content/uploads/2024/05/mrc-computer-services.png` as `images/mrc-logo.png`. Until you do, the page loads the logo straight from the group website, so it always shows.
-- Faces and the shop front look best in daylight, taken landscape on a phone.
+### Photo credits
+
+All four photos come from Unsplash and are free to use under the Unsplash License (https://unsplash.com/license). Credit is optional, and we keep it here:
+
+- Laptop repair: Revendo, https://unsplash.com/photos/7x0dGJqbfgk
+- Network cables: Scott Rodgerson, https://unsplash.com/photos/PSpf_XgOM5w
+- CCTV cameras: Korhan Eser, https://unsplash.com/photos/Y76fd1p129E
+- Computer parts: Andrey Matveev, https://unsplash.com/photos/WUqkLR1fyaw
 
 ## 2. Add prices
 
@@ -125,26 +125,20 @@ Every item still waiting on the branch. Search `index.html` for `✏️` to find
 
 | # | What is needed | Where it shows | What to give us |
 |---|---|---|---|
-| 1 | Shop-front photo | Top of the page, beside the headline | `images/shop-front.jpg`, 1200 × 900 |
-| 2 | Price: Laptop & PC repairs | Services card | `From R___` |
-| 3 | Price: Same-day parts | Services card | `From R___` |
-| 4 | Price: Upgrades & speed boosts | Services card | `From R___` |
-| 5 | Price: New & refurbished computers | Services card | `From R___` |
-| 6 | Price: Data transfers & backups | Services card | `From R___` |
-| 7 | Price: Home Wi-Fi & fibre setup | Services card | `From R___` |
-| 8 | Check-up fee | Repair Promise, step 2 | `R___` |
-| 9 | Check-up fee | Quick answers: "What does it cost to check my laptop?" (also the FAQ data block near the top) | `R___` |
-| 10 | Google review 1 | Reviews | Words, first name, month and year |
-| 11 | Google review 2 | Reviews | Words, first name, month and year |
-| 12 | Google review 3 | Reviews | Words, first name, month and year |
-| 13 | Photo: Jacky Du Preez | Team | `images/team-jacky.jpg`, 600 × 600 |
-| 14 | Photo: Anandre Groenewald | Team | `images/team-anandre.jpg`, 600 × 600 |
-| 15 | Photo: Rico Sinden | Team | `images/team-rico.jpg`, 600 × 600 |
-| 16 | Photo: the workshop team | Team (wide card) | `images/workshop-team.jpg`, 1600 × 700 |
-| 17 | Parking or landmark tip | Come say hello | One short line, e.g. "Parking in front of the shop" (only if true) |
-| 18 | Link-preview photo | WhatsApp and Facebook shares | `images/og-cover.jpg`, 1200 × 630 |
-| 19 | Google Analytics ID | `<head>` block marked SWITCH ON | The branch's own `G-…` ID |
-| 20 | Meta Pixel ID | `<head>` block marked SWITCH ON | The branch's own Pixel ID |
-| 21 | Tracking sentence | Footer comment marked SWITCH ON | Remove the comment marks once 19 and 20 are live |
+| 1 | Price: Laptop & PC repairs | Services card | `From R___` |
+| 2 | Price: Same-day parts | Services card | `From R___` |
+| 3 | Price: Upgrades & speed boosts | Services card | `From R___` |
+| 4 | Price: New & refurbished computers | Services card | `From R___` |
+| 5 | Price: Data transfers & backups | Services card | `From R___` |
+| 6 | Price: Home Wi-Fi & fibre setup | Services card | `From R___` |
+| 7 | Check-up fee | Repair Promise, step 2 | `R___` |
+| 8 | Check-up fee | Quick answers: "What does it cost to check my laptop?" (also the FAQ data block near the top) | `R___` |
+| 9 | Google review 1 | Reviews | Words, first name, month and year |
+| 10 | Google review 2 | Reviews | Words, first name, month and year |
+| 11 | Google review 3 | Reviews | Words, first name, month and year |
+| 12 | Parking or landmark tip | Come say hello | One short line, e.g. "Parking in front of the shop" (only if true) |
+| 13 | Google Analytics ID | `<head>` block marked SWITCH ON | The branch's own `G-…` ID |
+| 14 | Meta Pixel ID | `<head>` block marked SWITCH ON | The branch's own Pixel ID |
+| 15 | Tracking sentence | Footer comment marked SWITCH ON | Remove the comment marks once 13 and 14 are live |
 
-Not marked on the page but still to do: save the official logo as `images/mrc-logo.png` (step 1), and the launch-day steps in step 5.
+Also on the list: the launch-day steps in step 5.
