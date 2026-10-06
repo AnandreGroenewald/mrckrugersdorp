@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en-ZA">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MR Computer Services Krugersdorp | Laptop &amp; PC Repairs, Krugersdorp North</title>
+<meta name="description" content="MR Computer Services Krugersdorp — walk-in laptop and PC repairs, same-day Microsoft 365 help, and a free 15-minute IT check for local businesses. 110 Viljoen Street, Krugersdorp North.">
+
+<!-- ========================================================
+     ANALYTICS SPOT: Google Analytics (GA4)
+     Replace G-XXXXXXXXXX with this branch's own GA4 Measurement ID.
+     ======================================================== -->
+<!--
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXXXXX');
+</script>
+-->
+
+<!-- ========================================================
+     ANALYTICS SPOT: Meta (Facebook) Pixel
+     Replace YOUR_PIXEL_ID with this branch's own Meta Pixel ID.
+     ======================================================== -->
+<!--
+<script>
+  !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+  n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+  document,'script','https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', 'YOUR_PIXEL_ID');
+  fbq('track', 'PageView');
+</script>
+-->
+
+<style>
+  :root {
+    --navy: #161240;
+    --navy-light: #241e5e;
+    --white: #ffffff;
+    --off-white: #f4f4f8;
+    --green: #2fae4e;
+    --text: #1d1d1d;
+    --muted: #5c5c6b;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { -webkit-text-size-adjust: 100%; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: var(--text);
+    background: var(--white);
+    line-height: 1.5;
+  }
+
+  img { max-width: 100%; display: block; }
+
+  a { color: inherit; }
+
+  .wrap {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  /* ---------- Top bar ---------- */
+  .topbar {
+    background: var(--navy);
+    color: var(--white);
+    text-align: center;
+    font-size: 0.85rem;
+    padding: 8px 12px;
+  }
+  .topbar strong { color: #ffd166; }
+
+  /* ---------- Header ---------- */
+  header.hero {
+    background: var(--navy);
+    color: var(--white);
+    padding: 28px 0 32px;
+  }
+
+  .hero .wrap { text-align: center; }
+
+  .hero h1 {
+    font-size: 1.6rem;
+    line-height: 1.3;
+    margin-bottom: 6px;
+  }
+
+  .hero p.sub {
+    font-size: 1rem;
+    color: #d6d3ef;
+    margin-bottom: 20px;
+  }
+
+  .cta-row {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 320px;
+    margin: 0 auto;
+  }
+
+  .btn {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 18px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 1.05rem;
+    text-decoration: none;
+    border: 2px solid transparent;
+  }
+
+  .btn-call {
+    background: #ffffff;
+    color: var(--navy);
+  }
+
+  .btn-whatsapp {
+    background: var(--green);
+    color: var(--white);
+  }
+
+  .btn-outline {
+    background: transparent;
+    color: var(--white);
+    border: 2px solid var(--white);
+  }
+
+  /* ---------- Sections ---------- */
+  section {
+    padding: 36px 0;
+  }
+
+  section.alt {
+    background: var(--off-white);
+  }
+
+  h2 {
+    color: var(--navy);
+    font-size: 1.4rem;
+    margin-bottom: 8px;
+    text-align: center;
+  }
+
+  p.section-intro {
+    text-align: center;
+    color: var(--muted);
+    max-width: 560px;
+    margin: 0 auto 24px;
+    font-size: 0.98rem;
+  }
+
+  /* ---------- Services ---------- */
+  .services {
+    display: grid;
+    gap: 16px;
+  }
+
+  .card {
+    background: var(--white);
+    border: 1px solid #e3e2ee;
+    border-radius: 12px;
+    padding: 18px;
+  }
+
+  section.alt .card { background: var(--white); }
+
+  .card h3 {
+    color: var(--navy);
+    font-size: 1.1rem;
+    margin-bottom: 6px;
+  }
+
+  .card p {
+    color: var(--muted);
+    font-size: 0.95rem;
+    margin-bottom: 10px;
+  }
+
+  .price-tag {
+    display: inline-block;
+    background: var(--off-white);
+    color: var(--navy);
+    border: 1px dashed #9b97c2;
+    font-weight: 700;
+    font-size: 0.85rem;
+    padding: 6px 10px;
+    border-radius: 8px;
+  }
+
+  /* ---------- Photo placeholders ---------- */
+  .photo-spot {
+    background: repeating-linear-gradient(135deg, #ece9fb, #ece9fb 10px, #e1ddf5 10px, #e1ddf5 20px);
+    border: 2px dashed #9b97c2;
+    border-radius: 12px;
+    min-height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--navy);
+    font-weight: 700;
+    font-size: 0.95rem;
+    text-align: center;
+    padding: 12px;
+  }
+
+  /* ---------- How it works ---------- */
+  .steps {
+    display: grid;
+    gap: 16px;
+    counter-reset: step;
+  }
+
+  .step {
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+  }
+
+  .step-num {
+    flex: 0 0 auto;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background: var(--navy);
+    color: var(--white);
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .step h3 {
+    color: var(--navy);
+    font-size: 1.05rem;
+    margin-bottom: 4px;
+  }
+
+  .step p {
+    color: var(--muted);
+    font-size: 0.95rem;
+  }
+
+  /* ---------- Map / visit ---------- */
+  .map-frame {
+    border: 0;
+    width: 100%;
+    height: 280px;
+    border-radius: 12px;
+  }
+
+  .address-block {
+    text-align: center;
+    margin-bottom: 18px;
+  }
+
+  .address-block p { color: var(--muted); font-size: 0.95rem; }
+
+  .hours-table {
+    width: 100%;
+    max-width: 360px;
+    margin: 18px auto 0;
+    font-size: 0.95rem;
+  }
+
+  .hours-table td {
+    padding: 6px 4px;
+    border-bottom: 1px solid #e3e2ee;
+  }
+
+  .hours-table td:last-child {
+    text-align: right;
+    font-weight: 600;
+    color: var(--navy);
+  }
+
+  /* ---------- Contact band ---------- */
+  .contact-band {
+    background: var(--navy);
+    color: var(--white);
+    text-align: center;
+  }
+
+  .contact-band h2 { color: var(--white); }
+
+  .contact-band a.btn { margin: 6px; }
+
+  .contact-list {
+    margin-top: 16px;
+    font-size: 0.95rem;
+    color: #d6d3ef;
+  }
+
+  .contact-list p { margin-bottom: 4px; }
+
+  /* ---------- Footer ---------- */
+  footer {
+    background: #0e0b2d;
+    color: #b9b6d6;
+    font-size: 0.82rem;
+    padding: 24px 0;
+    text-align: center;
+  }
+
+  footer p { margin-bottom: 10px; }
+
+  footer a { color: #d6d3ef; text-decoration: underline; }
+
+  /* ---------- Desktop tweak ---------- */
+  @media (min-width: 640px) {
+    .cta-row { flex-direction: row; max-width: none; }
+    .services { grid-template-columns: repeat(3, 1fr); }
+    .steps { grid-template-columns: repeat(2, 1fr); }
+    .hero h1 { font-size: 2rem; }
+  }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  📍 110 Viljoen Street, Krugersdorp North &nbsp;·&nbsp; <strong>Walk-ins welcome</strong>
+</div>
+
+<header class="hero">
+  <div class="wrap">
+    <h1>Krugersdorp's walk-in computer repair shop</h1>
+    <p class="sub">Laptop and PC repairs, Microsoft 365 support, and honest advice for homes and businesses across the West Rand — no appointment needed.</p>
+    <div class="cta-row">
+      <a class="btn btn-call" href="tel:0112730060">📞 Tap to call: 011 273 0060</a>
+      <a class="btn btn-whatsapp" href="https://wa.me/27718651567" target="_blank" rel="noopener">💬 WhatsApp us: 071 865 1567</a>
+    </div>
+  </div>
+</header>
+
+<!-- ================= SERVICES ================= -->
+<section id="services">
+  <div class="wrap">
+    <h2>What we fix and set up</h2>
+    <p class="section-intro">Bring it in, or send us a WhatsApp photo of the problem and we'll tell you straight what's going on.</p>
+
+    <div class="services">
+      <div class="card">
+        <h3>Laptop &amp; PC repairs</h3>
+        <p>Cracked screens, slow machines, won't-switch-on panics, virus clean-ups and everything in between. We test before and after, every time.</p>
+        <span class="price-tag">FROM R___</span>
+      </div>
+
+      <div class="card">
+        <h3>Same-day Microsoft 365</h3>
+        <p>New laptop, new starter at work, or Outlook gone wrong? We'll get Microsoft 365 installed and working the same day for most setups.</p>
+        <span class="price-tag">FROM R___</span>
+      </div>
+
+      <div class="card">
+        <h3>Free 15-minute IT check</h3>
+        <p>For local businesses: a free 15-minute look at your network, backups and security, with plain-English advice — no sales pitch, just facts.</p>
+        <span class="price-tag">FREE for 15 minutes</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PHOTO: SHOP FRONT ================= -->
+<section class="alt">
+  <div class="wrap">
+    <h2>Find us in Krugersdorp North</h2>
+    <p class="section-intro">Easy to spot, easy to park, and we're happy to see you walk in.</p>
+    <div class="photo-spot">PHOTO: shop front</div>
+  </div>
+</section>
+
+<!-- ================= HOW OUR REPAIRS WORK ================= -->
+<section>
+  <div class="wrap">
+    <h2>How our repairs work</h2>
+    <p class="section-intro">No jargon, no surprises — you'll know exactly where your device is at, every step of the way.</p>
+
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">1</div>
+        <div>
+          <h3>Drop off &amp; get a job number</h3>
+          <p>We log your device, give you a job number, and note down exactly what's wrong — in your own words.</p>
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="step-num">2</div>
+        <div>
+          <h3>We diagnose first</h3>
+          <p>Our technicians check the device and work out what's really needed before anything is touched.</p>
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="step-num">3</div>
+        <div>
+          <h3>You approve the price</h3>
+          <p>We WhatsApp you the diagnosis and the price. Work only starts once you say go — no surprise bills.</p>
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="step-num">4</div>
+        <div>
+          <h3>WhatsApp updates at every step</h3>
+          <p>From "work started" to "ready for collection," you'll get a WhatsApp update using your job number — no need to phone and ask.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PHOTO: WORKBENCH ================= -->
+<section class="alt">
+  <div class="wrap">
+    <h2>Our technicians at work</h2>
+    <div class="photo-spot">PHOTO: workbench / technician repairing a laptop</div>
+  </div>
+</section>
+
+<!-- ================= MAP / VISIT ================= -->
+<section>
+  <div class="wrap">
+    <h2>Visit our Krugersdorp North branch</h2>
+    <div class="address-block">
+      <p>110 Viljoen Street, Krugersdorp North</p>
+      <p>Walk-ins welcome — no appointment needed.</p>
+    </div>
+
+    <iframe
+      class="map-frame"
+      loading="lazy"
+      allowfullscreen
+      referrerpolicy="no-referrer-when-downgrade"
+      src="https://maps.google.com/maps?q=110+Viljoen+Street,+Krugersdorp+North,+Krugersdorp&z=16&output=embed"
+      title="Map showing 110 Viljoen Street, Krugersdorp North">
+    </iframe>
+
+    <div class="cta-row" style="margin-top:18px;">
+      <a class="btn" style="background:var(--navy); color:var(--white);" href="https://maps.google.com/?cid=1700853532073906260" target="_blank" rel="noopener">📍 Open our Google listing</a>
+    </div>
+
+    <table class="hours-table">
+      <tr><td>Monday – Friday</td><td>08:00 – 17:00</td></tr>
+      <tr><td>Saturday</td><td>08:00 – 13:00</td></tr>
+      <tr><td>Sunday</td><td>Closed</td></tr>
+    </table>
+  </div>
+</section>
+
+<!-- ================= CONTACT BAND ================= -->
+<section class="contact-band">
+  <div class="wrap">
+    <h2>Get hold of us</h2>
+    <div class="cta-row" style="margin:16px auto 0;">
+      <a class="btn btn-call" href="tel:0112730060">📞 011 273 0060</a>
+      <a class="btn btn-whatsapp" href="https://wa.me/27718651567" target="_blank" rel="noopener">💬 WhatsApp 071 865 1567</a>
+    </div>
+    <div class="contact-list">
+      <p>Email: <a href="mailto:krugersdorp@mrcomputerservices.co.za">krugersdorp@mrcomputerservices.co.za</a></p>
+      <p>110 Viljoen Street, Krugersdorp North</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER / POPIA ================= -->
+<footer>
+  <div class="wrap">
+    <p>MR Computer Services Krugersdorp is a local West Rand branch serving Krugersdorp, Krugersdorp North and surrounding areas.</p>
+    <p><strong>Your privacy:</strong> We only use the details you give us (like your name, phone number or job number) to repair your device and keep you updated on its progress. We don't sell your information to anyone. If you'd like your details corrected or removed, just WhatsApp or email us and we'll sort it out, in line with South Africa's POPIA rules.</p>
+    <p>&copy; <span id="year">2026</span> MR Computer Services Krugersdorp. All rights reserved.</p>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
