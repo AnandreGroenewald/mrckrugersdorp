@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Computer Repairs &amp; IT Support in Krugersdorp | MR Computer Services</title>
-<meta name="description" content="Walk-in laptop and PC repairs, same-day parts and business IT in Krugersdorp North. Price first, WhatsApp updates. MR Computer Services, since 1998.">
+<meta name="description" content="Walk-in laptop and PC repairs, same-day parts, servers, firewalls, fibre, hosting and cloud in Krugersdorp North. Ons praat Afrikaans.">
 <!-- PREVIEW MODE: delete the next line on launch day -->
 <meta name="robots" content="noindex">
 <link rel="canonical" href="https://mrckrugersdorp.co.za/">
@@ -12,7 +12,7 @@
 
 <!-- Open Graph and Twitter. Link-preview photo: images/og-cover.jpg (1200 × 630) -->
 <meta property="og:title" content="MR Computer Services Krugersdorp – Your tech, sorted.">
-<meta property="og:description" content="Walk-in laptop and PC repairs, same-day parts and business IT in Krugersdorp North. Price first, WhatsApp updates. MR Computer Services, since 1998.">
+<meta property="og:description" content="Walk-in laptop and PC repairs, same-day parts, servers, firewalls, fibre, hosting and cloud in Krugersdorp North. Ons praat Afrikaans.">
 <meta property="og:url" content="https://mrckrugersdorp.co.za/">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_ZA">
@@ -20,7 +20,7 @@
 <meta property="og:image" content="https://mrckrugersdorp.co.za/images/og-cover.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="MR Computer Services Krugersdorp – Your tech, sorted.">
-<meta name="twitter:description" content="Walk-in laptop and PC repairs, same-day parts and business IT in Krugersdorp North. Price first, WhatsApp updates. MR Computer Services, since 1998.">
+<meta name="twitter:description" content="Walk-in laptop and PC repairs, same-day parts, servers, firewalls, fibre, hosting and cloud in Krugersdorp North. Ons praat Afrikaans.">
 <meta name="twitter:image" content="https://mrckrugersdorp.co.za/images/og-cover.jpg">
 
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
@@ -43,6 +43,8 @@
       "image": "https://mrckrugersdorp.co.za/images/og-cover.jpg",
       "description": "Walk-in laptop and PC repairs, same-day parts and business IT in Krugersdorp North. Price first, WhatsApp updates.",
       "slogan": "More than just IT...",
+      "knowsLanguage": ["en", "af"],
+      "knowsAbout": ["Computer repairs", "Laptop repairs", "Computer parts", "Servers", "Firewalls", "Fibre internet", "Web hosting", "Cloud services", "Microsoft 365", "Office 365"],
       "telephone": "+27112730060",
       "email": "krugersdorp@mrcomputerservices.co.za",
       "address": {
@@ -129,10 +131,18 @@
     },
     {
       "@type": "Question",
+      "name": "Kan ek in Afrikaans gehelp word?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, beslis! Ons help jou graag in Afrikaans of Engels: by die toonbank, oor die foon en op WhatsApp."
+      }
+    },
+    {
+      "@type": "Question",
       "name": "Do you look after businesses?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, from firewalls to fibre, Microsoft 365, networks and CCTV. Start with the free 15-minute IT Health Check."
+        "text": "Yes! Servers, firewalls, fibre, hosting, cloud and Microsoft 365 (Office 365), all set up and supported by one local team. Start with the free 15-minute IT Health Check."
       }
     },
     {
@@ -140,7 +150,7 @@
       "name": "Which brands do you sell and support?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Dell, HP, Lenovo, ASUS and MSI computers, plus Microsoft, ESET and Hikvision, with parts and accessories for all the popular makes."
+        "text": "Dell, HP, Lenovo, ASUS and MSI computers, plus Microsoft and ESET, with parts and accessories for all the popular makes."
       }
     },
     {
@@ -148,7 +158,7 @@
       "name": "How can I pay?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Card, debit card and tap-to-pay at the shop. Businesses can ask about rentals and flexible payment terms."
+        "text": "Card, debit card and tap-to-pay at the shop."
       }
     }
   ]
@@ -252,9 +262,7 @@ section{padding:64px 0}
 .photo img{display:block;width:100%;height:100%;object-fit:cover}
 .hero .photo{aspect-ratio:4/3;box-shadow:0 18px 50px rgba(0,0,0,.35)}
 .photo-band{aspect-ratio:2/1;margin:0 0 28px}
-.photo-pair{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:0 0 28px}
-.photo-pair .photo{aspect-ratio:3/2}
-@media(min-width:800px){.photo-band{aspect-ratio:3/1}.photo-pair{gap:22px}}
+@media(min-width:800px){.photo-band{aspect-ratio:3/1}}
 
 /* reveal on scroll */
 .js .reveal{opacity:0;transform:translateY(18px);transition:opacity .6s ease,transform .6s ease;transition-delay:var(--d,0s)}
@@ -289,6 +297,12 @@ section{padding:64px 0}
 .status .dot{width:12px;height:12px;border-radius:50%;background:var(--orange);flex:none;box-shadow:0 0 0 4px rgba(239,102,35,.28)}
 .status.is-open .dot{background:#2bd673;box-shadow:0 0 0 4px rgba(43,214,115,.3)}
 .status.light{background:var(--tint);border-color:var(--line);color:var(--navy)}
+
+/* Afrikaans */
+.hero-pills{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.af-badge{display:inline-flex;align-items:center;gap:9px;margin:0;padding:7px 15px;border-radius:999px;background:#fff;color:var(--navy);font-weight:900;font-size:1rem;line-height:1.3}
+.af-badge svg{width:24px;height:16px;border-radius:3px;flex:none;box-shadow:0 0 0 1px rgba(0,0,0,.18)}
+.lang-af{margin:12px 0 0;font-size:1.25rem;font-weight:700;font-style:italic;color:var(--teal-light)}
 
 /* trust strip */
 .trust{padding:22px 0;border-bottom:1px solid var(--line);background:#fff}
@@ -454,6 +468,8 @@ section{padding:64px 0}
   <symbol id="i-door" viewBox="0 0 24 24"><path d="M6 21V4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v17M3 21h18"/><circle cx="14.5" cy="12" r=".8" style="fill:currentColor"/></symbol>
   <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
   <symbol id="i-chev" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></symbol>
+  <symbol id="i-server" viewBox="0 0 24 24"><rect x="3" y="3.5" width="18" height="7" rx="2"/><rect x="3" y="13.5" width="18" height="7" rx="2"/><path d="M7 7h.01M7 17h.01M11 7h6M11 17h6"/></symbol>
+  <symbol id="i-cloud" viewBox="0 0 24 24"><path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/></symbol>
   <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
 </svg>
 
@@ -489,12 +505,16 @@ section{padding:64px 0}
     <div>
       <p class="eyebrow">Krugersdorp's walk-in IT team</p>
       <h1 id="hero-title">Your tech, sorted. <span class="hl">Right here in Krugersdorp.</span></h1>
+      <p class="lang-af" lang="af">Jou rekenaar, reggemaak. Reg hier in Krugersdorp.</p>
       <p class="sub">Laptop and PC repairs, same-day parts and business IT from MR Computer Services, trusted since 1998.</p>
-      <p class="status" data-status><span class="dot" aria-hidden="true"></span><span class="status-text">Mon–Fri 08:00–17:00 · Sat 08:00–13:00</span></p>
+      <div class="hero-pills">
+        <p class="status" data-status><span class="dot" aria-hidden="true"></span><span class="status-text">Mon–Fri 08:00–17:00 · Sat 08:00–13:00</span></p>
+        <p class="af-badge" lang="af"><svg viewBox="0 0 90 60" aria-hidden="true"><defs><clipPath id="za-t"><path d="M0 0l45 30L0 60z"/></clipPath><clipPath id="za-f"><path d="M0 0h90v60H0z"/></clipPath></defs><path fill="#E03C31" d="M0 0h90v30H45z"/><path fill="#001489" d="M0 60h90V30H45z"/><g clip-path="url(#za-f)" fill="none"><path stroke="#fff" stroke-width="20" d="M90 30H45L0 0v60l45-30"/><path fill="#000" stroke="#FFB81C" stroke-width="20" clip-path="url(#za-t)" d="M0 0l45 30L0 60"/><path stroke="#007749" stroke-width="12" d="M0 0l45 30h45M0 60l45-30"/></g></svg>Ons praat Afrikaans</p>
+      </div>
       <div class="hero-actions">
         <a class="btn btn-wa btn-xl" href="https://wa.me/27718651567?text=Hi%20MRC%20Krugersdorp!%20I%27d%20like%20some%20help." target="_blank" rel="noopener" data-track="whatsapp_click" data-service="General enquiry" data-placement="hero"><svg class="ic" aria-hidden="true"><use href="#i-wa"/></svg>WhatsApp us now</a>
         <a class="btn btn-white" href="tel:+27112730060" data-track="call_click" data-placement="hero"><svg class="ic" aria-hidden="true"><use href="#i-phone"/></svg>Call 011 273 0060</a>
-        <a class="btn btn-ghost" href="https://www.google.com/maps/dir/?api=1&amp;destination=110+Viljoen+St+Krugersdorp+North" target="_blank" rel="noopener" data-track="directions_click" data-placement="hero"><svg class="ic" aria-hidden="true"><use href="#i-nav"/></svg>Get directions</a>
+        <a class="btn btn-ghost" href="https://www.google.com/maps/dir/?api=1&amp;destination=MR+Computer+Services+110+Viljoen+St+Krugersdorp+North" target="_blank" rel="noopener" data-track="directions_click" data-placement="hero"><svg class="ic" aria-hidden="true"><use href="#i-nav"/></svg>Get directions</a>
       </div>
       <p class="hero-group">A branch of the MR Computer Services group · <em>More than just IT...</em> <a href="https://www.mrcomputerservices.co.za" target="_blank" rel="noopener">Visit the group website</a></p>
     </div>
@@ -530,7 +550,7 @@ section{padding:64px 0}
       <article class="card reveal">
         <div class="ico"><svg class="ic" aria-hidden="true"><use href="#i-laptop"/></svg></div>
         <h3>Laptop &amp; PC repairs</h3>
-        <p>Your laptop or PC back and running smoothly: we fix screens, keyboards and batteries, speed up slow machines and clean out viruses.</p>
+        <p>Your laptop or PC back and running smoothly: we fix screens, keyboards and batteries, bring older machines back up to speed and clean out viruses.</p>
         <div class="card-foot">
           <span class="fill"><b>From R___</b><i>✏️ FILL IN</i></span>
           <a class="card-link" href="https://wa.me/27718651567?text=Hi%20MRC%20Krugersdorp!%20I%27d%20like%20help%20with%3A%20Laptop%20%26%20PC%20repairs." target="_blank" rel="noopener" data-track="whatsapp_click" data-service="Laptop &amp; PC repairs" data-placement="services">WhatsApp about this <svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
@@ -566,7 +586,7 @@ section{padding:64px 0}
       <article class="card reveal" style="--d:.08s">
         <div class="ico"><svg class="ic" aria-hidden="true"><use href="#i-swap"/></svg></div>
         <h3>Data transfers &amp; backups</h3>
-        <p>We move your photos and files to your new device, then set up a backup so nothing gets lost.</p>
+        <p>We move your photos and files to your new device, then set up a backup so every memory stays safe.</p>
         <div class="card-foot">
           <span class="fill"><b>From R___</b><i>✏️ FILL IN</i></span>
           <a class="card-link" href="https://wa.me/27718651567?text=Hi%20MRC%20Krugersdorp!%20I%27d%20like%20help%20with%3A%20Data%20transfers%20%26%20backups." target="_blank" rel="noopener" data-track="whatsapp_click" data-service="Data transfers &amp; backups" data-placement="services">WhatsApp about this <svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
@@ -583,7 +603,7 @@ section{padding:64px 0}
       </article>
     </div>
     <div class="section-cta reveal">
-      <p>Not sure what you need? Send us a photo and we'll point you the right way. You approve the price before any work starts.</p>
+      <p>Need a hand choosing? Send us a photo and we'll point you the right way. You approve the price before any work starts.</p>
       <div class="cta-row">
         <a class="btn btn-wa" href="https://wa.me/27718651567?text=Hi%20MRC%20Krugersdorp!%20I%27d%20like%20to%20send%20you%20a%20photo%20of%20my%20device." target="_blank" rel="noopener" data-track="whatsapp_click" data-service="Photo of my device" data-placement="services-cta"><svg class="ic" aria-hidden="true"><use href="#i-wa"/></svg>WhatsApp us a photo</a>
         <a class="btn btn-line" href="tel:+27112730060" data-track="call_click" data-placement="services-cta"><svg class="ic" aria-hidden="true"><use href="#i-phone"/></svg>Call 011 273 0060</a>
@@ -598,12 +618,9 @@ section{padding:64px 0}
     <div class="sec-head center reveal">
       <svg class="dots" aria-hidden="true"><use href="#i-dots"/></svg>
       <h2 id="business-title">IT that keeps your <span class="hl">business moving.</span></h2>
-      <p>One local team for support, security and connectivity, right here in Krugersdorp and backed by the MRC group.</p>
+      <p>Servers, firewalls, fibre, hosting, cloud and Microsoft 365 (Office 365) from one local team, right here in Krugersdorp and backed by the MRC group.</p>
     </div>
-    <div class="photo-pair reveal">
-      <figure class="photo"><img src="images/business-network.jpg" alt="Neatly labelled blue network cables in a server rack" width="900" height="600" loading="lazy"></figure>
-      <figure class="photo"><img src="images/business-cctv.jpg" alt="Two CCTV cameras against a clear blue sky" width="900" height="600" loading="lazy"></figure>
-    </div>
+    <figure class="photo photo-band reveal"><img src="images/business-network.jpg" alt="Neatly labelled blue network cables in a server rack" width="1600" height="640" loading="lazy"></figure>
     <div class="cards">
       <article class="feature reveal">
         <div>
@@ -615,57 +632,57 @@ section{padding:64px 0}
       </article>
 
       <article class="card reveal">
-        <div class="ico"><svg class="ic" aria-hidden="true"><use href="#i-headset"/></svg></div>
-        <h3>IT support contracts</h3>
-        <p>Remote and on-site support under a Service Level Agreement, so you know what to expect from us.</p>
+        <div class="ico"><svg class="ic" aria-hidden="true"><use href="#i-server"/></svg></div>
+        <h3>Servers</h3>
+        <p>Business servers supplied, set up and looked after, so your files and systems are ready whenever your team needs them.</p>
         <div class="card-foot">
           <span class="tag">Quote on request</span>
-          <a class="card-link" href="https://wa.me/27718651567?text=Hi%20MRC%20Krugersdorp!%20I%27d%20like%20help%20with%3A%20IT%20support%20contracts." target="_blank" rel="noopener" data-track="whatsapp_click" data-service="IT support contracts" data-placement="business">WhatsApp about this <svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          <a class="card-link" href="https://wa.me/27718651567?text=Hi%20MRC%20Krugersdorp!%20I%27d%20like%20help%20with%3A%20Servers." target="_blank" rel="noopener" data-track="whatsapp_click" data-service="Servers" data-placement="business">WhatsApp about this <svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
         </div>
       </article>
       <article class="card reveal" style="--d:.08s">
         <div class="ico"><svg class="ic" aria-hidden="true"><use href="#i-shield"/></svg></div>
-        <h3>Firewalls &amp; cybersecurity</h3>
-        <p>Firewalls, protection and security-awareness training that keep your team and your data safe.</p>
+        <h3>Firewalls</h3>
+        <p>Firewalls set up and looked after to keep your network, your team and your data safe.</p>
         <div class="card-foot">
           <span class="tag">Quote on request</span>
-          <a class="card-link" href="https://wa.me/27718651567?text=Hi%20MRC%20Krugersdorp!%20I%27d%20like%20help%20with%3A%20Firewalls%20%26%20cybersecurity." target="_blank" rel="noopener" data-track="whatsapp_click" data-service="Firewalls &amp; cybersecurity" data-placement="business">WhatsApp about this <svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          <a class="card-link" href="https://wa.me/27718651567?text=Hi%20MRC%20Krugersdorp!%20I%27d%20like%20help%20with%3A%20Firewalls." target="_blank" rel="noopener" data-track="whatsapp_click" data-service="Firewalls" data-placement="business">WhatsApp about this <svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
         </div>
       </article>
       <article class="card reveal" style="--d:.16s">
-        <div class="ico"><svg class="ic" aria-hidden="true"><use href="#i-globe"/></svg></div>
-        <h3>Fibre &amp; connectivity</h3>
-        <p>Business fibre and internet, set up and supported by one local team.</p>
+        <div class="ico"><svg class="ic" aria-hidden="true"><use href="#i-wifi"/></svg></div>
+        <h3>Fibre</h3>
+        <p>Business fibre installed and supported, so your team stays connected and productive.</p>
         <div class="card-foot">
           <span class="tag">Quote on request</span>
-          <a class="card-link" href="https://wa.me/27718651567?text=Hi%20MRC%20Krugersdorp!%20I%27d%20like%20help%20with%3A%20Fibre%20%26%20connectivity." target="_blank" rel="noopener" data-track="whatsapp_click" data-service="Fibre &amp; connectivity" data-placement="business">WhatsApp about this <svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          <a class="card-link" href="https://wa.me/27718651567?text=Hi%20MRC%20Krugersdorp!%20I%27d%20like%20help%20with%3A%20Fibre." target="_blank" rel="noopener" data-track="whatsapp_click" data-service="Fibre" data-placement="business">WhatsApp about this <svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
         </div>
       </article>
       <article class="card reveal">
-        <div class="ico"><svg class="ic" aria-hidden="true"><use href="#i-mail"/></svg></div>
-        <h3>Microsoft 365 &amp; business email</h3>
-        <p>Microsoft 365, business email and file sharing, set up and supported.</p>
+        <div class="ico"><svg class="ic" aria-hidden="true"><use href="#i-globe"/></svg></div>
+        <h3>Hosting</h3>
+        <p>Reliable hosting for your website, email and business systems, set up and supported for you.</p>
         <div class="card-foot">
           <span class="tag">Quote on request</span>
-          <a class="card-link" href="https://wa.me/27718651567?text=Hi%20MRC%20Krugersdorp!%20I%27d%20like%20help%20with%3A%20Microsoft%20365%20%26%20business%20email." target="_blank" rel="noopener" data-track="whatsapp_click" data-service="Microsoft 365 &amp; business email" data-placement="business">WhatsApp about this <svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          <a class="card-link" href="https://wa.me/27718651567?text=Hi%20MRC%20Krugersdorp!%20I%27d%20like%20help%20with%3A%20Hosting." target="_blank" rel="noopener" data-track="whatsapp_click" data-service="Hosting" data-placement="business">WhatsApp about this <svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
         </div>
       </article>
       <article class="card reveal" style="--d:.08s">
-        <div class="ico"><svg class="ic" aria-hidden="true"><use href="#i-cam"/></svg></div>
-        <h3>Networks, cabling &amp; CCTV</h3>
-        <p>Structured cabling, Wi-Fi, servers and Hikvision CCTV, installed and looked after.</p>
+        <div class="ico"><svg class="ic" aria-hidden="true"><use href="#i-cloud"/></svg></div>
+        <h3>Cloud</h3>
+        <p>Cloud servers, backups and storage, so your business runs from anywhere and your data stays safe.</p>
         <div class="card-foot">
           <span class="tag">Quote on request</span>
-          <a class="card-link" href="https://wa.me/27718651567?text=Hi%20MRC%20Krugersdorp!%20I%27d%20like%20help%20with%3A%20Networks%2C%20cabling%20%26%20CCTV." target="_blank" rel="noopener" data-track="whatsapp_click" data-service="Networks, cabling &amp; CCTV" data-placement="business">WhatsApp about this <svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          <a class="card-link" href="https://wa.me/27718651567?text=Hi%20MRC%20Krugersdorp!%20I%27d%20like%20help%20with%3A%20Cloud." target="_blank" rel="noopener" data-track="whatsapp_click" data-service="Cloud" data-placement="business">WhatsApp about this <svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
         </div>
       </article>
       <article class="card reveal" style="--d:.16s">
-        <div class="ico"><svg class="ic" aria-hidden="true"><use href="#i-box"/></svg></div>
-        <h3>Equipment, rentals &amp; payment terms</h3>
-        <p>Computers, hardware and software for your team, with rentals and flexible payment terms.</p>
+        <div class="ico"><svg class="ic" aria-hidden="true"><use href="#i-mail"/></svg></div>
+        <h3>Microsoft 365 (Office 365)</h3>
+        <p>Email, Teams, OneDrive and the Office apps, set up, moved over and supported.</p>
         <div class="card-foot">
           <span class="tag">Quote on request</span>
-          <a class="card-link" href="https://wa.me/27718651567?text=Hi%20MRC%20Krugersdorp!%20I%27d%20like%20help%20with%3A%20Equipment%2C%20rentals%20%26%20payment%20terms." target="_blank" rel="noopener" data-track="whatsapp_click" data-service="Equipment, rentals &amp; payment terms" data-placement="business">WhatsApp about this <svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          <a class="card-link" href="https://wa.me/27718651567?text=Hi%20MRC%20Krugersdorp!%20I%27d%20like%20help%20with%3A%20Microsoft%20365%20(Office%20365)." target="_blank" rel="noopener" data-track="whatsapp_click" data-service="Microsoft 365 (Office 365)" data-placement="business">WhatsApp about this <svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
         </div>
       </article>
     </div>
@@ -772,7 +789,7 @@ section{padding:64px 0}
           <li><svg class="ic" aria-hidden="true"><use href="#i-pin"/></svg><span class="fill"><b>✏️ FILL IN: parking or landmark tip</b></span></li>
         </ul>
         <div class="cta-row">
-          <a class="btn btn-navy" href="https://www.google.com/maps/dir/?api=1&amp;destination=110+Viljoen+St+Krugersdorp+North" target="_blank" rel="noopener" data-track="directions_click" data-placement="visit"><svg class="ic" aria-hidden="true"><use href="#i-nav"/></svg>Get directions</a>
+          <a class="btn btn-navy" href="https://www.google.com/maps/dir/?api=1&amp;destination=MR+Computer+Services+110+Viljoen+St+Krugersdorp+North" target="_blank" rel="noopener" data-track="directions_click" data-placement="visit"><svg class="ic" aria-hidden="true"><use href="#i-nav"/></svg>Get directions</a>
           <a class="btn btn-line" href="https://maps.google.com/?cid=1700853532073906260" target="_blank" rel="noopener" data-track="reviews_click" data-placement="visit-google"><svg class="ic" aria-hidden="true"><use href="#i-pin"/></svg>Open on Google</a>
         </div>
       </div>
@@ -795,6 +812,10 @@ section{padding:64px 0}
         <summary>Can I just walk in?<svg class="ic" aria-hidden="true"><use href="#i-chev"/></svg></summary>
         <div class="faq-a"><p>Yes! Walk straight in during opening hours and we'll help you on the spot. For on-site business work, WhatsApp us to pick a time.</p></div>
       </details>
+      <details class="faq" lang="af">
+        <summary>Kan ek in Afrikaans gehelp word?<svg class="ic" aria-hidden="true"><use href="#i-chev"/></svg></summary>
+        <div class="faq-a"><p>Ja, beslis! Ons help jou graag in Afrikaans of Engels: by die toonbank, oor die foon en op WhatsApp.</p></div>
+      </details>
       <details class="faq">
         <summary>What does it cost to check my laptop?<svg class="ic" aria-hidden="true"><use href="#i-chev"/></svg></summary>
         <div class="faq-a"><p>Our check-up fee is <span class="fill"><b>R___</b><i>✏️ FILL IN</i></span>. You approve the full price before work starts.</p></div>
@@ -805,15 +826,15 @@ section{padding:64px 0}
       </details>
       <details class="faq">
         <summary>Do you look after businesses?<svg class="ic" aria-hidden="true"><use href="#i-chev"/></svg></summary>
-        <div class="faq-a"><p>Yes, from firewalls to fibre, Microsoft 365, networks and CCTV. Start with the free 15-minute IT Health Check.</p></div>
+        <div class="faq-a"><p>Yes! Servers, firewalls, fibre, hosting, cloud and Microsoft 365 (Office 365), all set up and supported by one local team. Start with the free 15-minute IT Health Check.</p></div>
       </details>
       <details class="faq">
         <summary>Which brands do you sell and support?<svg class="ic" aria-hidden="true"><use href="#i-chev"/></svg></summary>
-        <div class="faq-a"><p>Dell, HP, Lenovo, ASUS and MSI computers, plus Microsoft, ESET and Hikvision, with parts and accessories for all the popular makes.</p></div>
+        <div class="faq-a"><p>Dell, HP, Lenovo, ASUS and MSI computers, plus Microsoft and ESET, with parts and accessories for all the popular makes.</p></div>
       </details>
       <details class="faq">
         <summary>How can I pay?<svg class="ic" aria-hidden="true"><use href="#i-chev"/></svg></summary>
-        <div class="faq-a"><p>Card, debit card and tap-to-pay at the shop. Businesses can ask about rentals and flexible payment terms.</p></div>
+        <div class="faq-a"><p>Card, debit card and tap-to-pay at the shop.</p></div>
       </details>
     </div>
     <div class="section-cta reveal">
@@ -843,6 +864,7 @@ section{padding:64px 0}
         <select id="f-need" name="need" required>
           <option value="" disabled selected>Choose one</option>
           <option>Laptop or PC repair</option>
+          <option>Parts</option>
           <option>New computer</option>
           <option>Upgrade</option>
           <option>Data transfer</option>
@@ -919,7 +941,7 @@ section{padding:64px 0}
 <nav class="actionbar" aria-label="Quick contact">
   <a class="ab-wa" href="https://wa.me/27718651567?text=Hi%20MRC%20Krugersdorp!%20I%27d%20like%20some%20help." target="_blank" rel="noopener" data-track="whatsapp_click" data-service="General enquiry" data-placement="action-bar"><svg class="ic" aria-hidden="true"><use href="#i-wa"/></svg>WhatsApp</a>
   <a class="ab-call" href="tel:+27112730060" data-track="call_click" data-placement="action-bar"><svg class="ic" aria-hidden="true"><use href="#i-phone"/></svg>Call</a>
-  <a class="ab-dir" href="https://www.google.com/maps/dir/?api=1&amp;destination=110+Viljoen+St+Krugersdorp+North" target="_blank" rel="noopener" data-track="directions_click" data-placement="action-bar"><svg class="ic" aria-hidden="true"><use href="#i-nav"/></svg>Directions</a>
+  <a class="ab-dir" href="https://www.google.com/maps/dir/?api=1&amp;destination=MR+Computer+Services+110+Viljoen+St+Krugersdorp+North" target="_blank" rel="noopener" data-track="directions_click" data-placement="action-bar"><svg class="ic" aria-hidden="true"><use href="#i-nav"/></svg>Directions</a>
 </nav>
 
 <script>

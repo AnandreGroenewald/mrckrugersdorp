@@ -25,19 +25,18 @@ The site uses free-licence stock photos of equipment, with no people in the main
 |---|---|---|---|
 | Top of the page, beside the headline | `images/hero-repair.jpg` | 1000 × 750 | An opened laptop showing its motherboard |
 | Home services, above the cards | `images/parts.jpg` | 1200 × 600 | Memory, SSDs and processors |
-| Business IT, above the cards | `images/business-network.jpg` and `images/business-cctv.jpg` | 900 × 600 each | Network cables · CCTV cameras |
+| Business IT, above the cards | `images/business-network.jpg` | 1600 × 640 | Network cables in a server rack |
 | WhatsApp and Facebook link preview | `images/og-cover.jpg` | 1200 × 630 | An opened laptop showing its motherboard |
 | Logo | `images/mrc-logo.png` | 501 × 345 | Official MRC logo |
 
-To swap a photo, save the new one with the **same file name** in `images/` and refresh the page. Keep each photo a JPG under 200 KB (squoosh.app shrinks them for free). A real shop-front photo makes a great swap for `hero-repair.jpg` later.
+To swap a photo, save the new one with the **same file name** in `images/` and refresh the page. Keep each photo a JPG under 200 KB (squoosh.app shrinks them for free). A real shop-front photo makes a great swap for `hero-repair.jpg` later. The page uses no other photos, by the branch's choice. `images/business-cctv.jpg` is spare and can be deleted.
 
 ### Photo credits
 
-All four photos come from Unsplash and are free to use under the Unsplash License (https://unsplash.com/license). Credit is optional, and we keep it here:
+All three photos come from Unsplash and are free to use under the Unsplash License (https://unsplash.com/license). Credit is optional, and we keep it here:
 
 - Opened laptop: Andrey Matveev, https://unsplash.com/photos/V_ESJ2MM2Us
 - Network cables: Scott Rodgerson, https://unsplash.com/photos/PSpf_XgOM5w
-- CCTV cameras: Korhan Eser, https://unsplash.com/photos/Y76fd1p129E
 - Computer parts: Andrey Matveev, https://unsplash.com/photos/WUqkLR1fyaw
 
 ## 2. Add prices
