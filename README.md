@@ -39,24 +39,9 @@ All three photos come from Unsplash and are free to use under the Unsplash Licen
 - Network cables: Scott Rodgerson, https://unsplash.com/photos/PSpf_XgOM5w
 - Computer parts: Andrey Matveev, https://unsplash.com/photos/WUqkLR1fyaw
 
-## 2. Add prices
+## 2. Prices
 
-Every price spot reads **From R___** (with a **✏️ FILL IN** tag). Open `index.html`, search for `From R___` and type the price over the blanks, for example `From R350`. Then delete the little `✏️ FILL IN` tag next to it.
-
-| Where | Spot |
-|---|---|
-| Services section | Laptop & PC repairs |
-| Services section | Same-day parts |
-| Services section | Upgrades & speed boosts |
-| Services section | New & refurbished computers |
-| Services section | Data transfers & backups |
-| Services section | Home Wi-Fi & fibre setup |
-
-Also fill in the **check-up fee** (search for `R___`). It appears in two places: **The MRC Repair Promise, step 2** and the quick answer **"What does it cost to check my laptop?"**.
-
-Then update one more thing: near the top of `index.html`, in the FAQ block, the answer to "What does it cost to check my laptop?" says *"Message or call us for the current check-up fee."* Change it to include the fee so Google shows the same answer as the page.
-
-The business cards say **Quote on request** on purpose. They need no price.
+The site shows **Quote on request** in place of prices, by the branch's choice. Customers get a clear quote on WhatsApp before any work starts, so this section is complete.
 
 ## 3. Add reviews
 
@@ -124,20 +109,12 @@ Every item still waiting on the branch. Search `index.html` for `✏️` to find
 
 | # | What is needed | Where it shows | What to give us |
 |---|---|---|---|
-| 1 | Price: Laptop & PC repairs | Services card | `From R___` |
-| 2 | Price: Same-day parts | Services card | `From R___` |
-| 3 | Price: Upgrades & speed boosts | Services card | `From R___` |
-| 4 | Price: New & refurbished computers | Services card | `From R___` |
-| 5 | Price: Data transfers & backups | Services card | `From R___` |
-| 6 | Price: Home Wi-Fi & fibre setup | Services card | `From R___` |
-| 7 | Check-up fee | Repair Promise, step 2 | `R___` |
-| 8 | Check-up fee | Quick answers: "What does it cost to check my laptop?" (also the FAQ data block near the top) | `R___` |
-| 9 | Google review 1 | Reviews | Words, first name, month and year |
-| 10 | Google review 2 | Reviews | Words, first name, month and year |
-| 11 | Google review 3 | Reviews | Words, first name, month and year |
-| 12 | Parking or landmark tip | Come say hello | One short line, e.g. "Parking in front of the shop" (only if true) |
-| 13 | Google Analytics ID | `<head>` block marked SWITCH ON | The branch's own `G-…` ID |
-| 14 | Meta Pixel ID | `<head>` block marked SWITCH ON | The branch's own Pixel ID |
-| 15 | Tracking sentence | Footer comment marked SWITCH ON | Remove the comment marks once 13 and 14 are live |
+| 1 | Google review 1 | Reviews | Words, first name, month and year |
+| 2 | Google review 2 | Reviews | Words, first name, month and year |
+| 3 | Google review 3 | Reviews | Words, first name, month and year |
+| 4 | Parking or landmark tip | Come say hello | One short line, e.g. "Parking in front of the shop" (only if true) |
+| 5 | Google Analytics ID | `<head>` block marked SWITCH ON | The branch's own `G-…` ID |
+| 6 | Meta Pixel ID | `<head>` block marked SWITCH ON | The branch's own Pixel ID |
+| 7 | Tracking sentence | Footer comment marked SWITCH ON | Remove the comment marks once 5 and 6 are live |
 
 Also on the list: the launch-day steps in step 5.
